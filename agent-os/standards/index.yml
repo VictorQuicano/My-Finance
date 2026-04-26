@@ -1,0 +1,16 @@
+# Agent OS Standards Index
+
+backend:
+  api-routes:
+    description: Response envelope, error codes, Zod validation, HTTP method conventions
+  authentication:
+    description: WorkOS AuthKit setup, middleware guard, onboarding redirect, user identity pattern
+
+database:
+  prisma:
+    description: Prisma singleton, env split (Docker/Supabase), migration workflow, schema conventions
+
+global:
+  project-structure:
+    description: Folder layout, route groups, component organization, and lib conventions
+
